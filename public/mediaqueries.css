@@ -45,9 +45,6 @@
     .profile_pic{
         height: 275px;
         width: 275px;
-        border-radius: 50%;
-        object-fit: cover;
-        background-color: lightblue;
     }
     .about-containers {
         margin-top: 0;
@@ -99,8 +96,8 @@
         justify-content: center;
     }
     .profile_pic{
-        height: 250px;
-        width: 250px;
+        height: 230px;
+        width: 230px;
     }
     .section__text__p2 {
         font-size: 1.25rem;
@@ -110,5 +107,12 @@
     }
     .text-container {
         text-align: justify;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile_pic{
+        height: 180px;
+        width: 180px;
     }
 }
