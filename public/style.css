@@ -170,11 +170,15 @@ section {
 }
 
 .section__pic-container {
-    display: flex;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     height: 350px;
     width: 350px;
     margin: auto 0;
 }
+
+
 .profile_pic{
     height: 350px;
     width: 350px;
@@ -316,11 +320,11 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
+/* .section__pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
-}
+} */
 
 /* EXPERIENCE SECTION */
 
